@@ -1,0 +1,125 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    width: 100%; height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-container {z-index: -1;
+    position: absolute;
+
+    width: 100%; height: 90vh; 
+
+
+}
+
+
+nav{z-index: 100;
+    width: 100%; height: 10vh; padding: 20px;
+    background: rgb(87, 160, 233);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+.logo{
+    width: 25%; 
+    
+    
+}
+.menu{
+  width: 40%;
+  display: flex;justify-content: space-around;
+}
+
+.menu a{
+    width: 25%; 
+    text-decoration: none; color: cornsilk;
+    font-weight: bold;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: rgb(216, 23, 23);
+}
+
+section h4{
+ font-size: 50px;font-weight: 300; letter-spacing: 2px;
+ text-shadow: 1px 1px 2px brown;
+}
+
+video {object-fit: cover;}
+
+.change_Content:after{
+    content: '';
+    z-index: 100;
+    animation: changetext 30s infinite linear;
+    color: darkgoldenrod;
+}
+
+@keyframes changetext{
+0%{ content: "Andhra Pradesh";}
+3%{ content: "Arunachal Pradesh";}
+6%{ content: "Assam";}
+9%{ content: "Bihar";}
+12%{ content: "Chhattisgarh";} 
+14%{ content: "Delhi";} 
+16%{ content: "Goa";} 
+18%{ content: "Gujarat";} 
+21%{ content: "Haryana";} 
+24%{ content: "Himanchal Pradesh";} 
+27%{ content: "Jharkhand";}
+30%{ content: "Karnataka";}
+34%{ content: "Kerala";}
+38%{ content: "Madhya Pradesh";}
+42%{ content: "Maharashtra";}
+46%{ content: "Manipur";}
+52%{ content: "Meghalaya";}
+56%{ content: "Mizoram";} 
+60%{ content: "Nagaland";} 
+64%{ content: "Odisha";} 
+68%{ content: "Punjab";} 
+72%{ content: "Rajasthan";} 
+75%{ content: "Sikkim";}
+78%{ content: "Tamil Nadu";}
+81%{ content: "Telangana";}
+84%{ content: "Tripura";} 
+89%{ content: "Uttar Pradesh";} 
+94%{ content: "Uttraakhand";} 
+100%{ content: "West Bangal";}
+} 
+ 
+section p{padding: 1rem;
+    font-size: 25px;font-weight: 200; letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(216, 45, 231);
+}
+
+section a{
+    padding: 5px 18px;
+    border-radius: 3px;
+    outline: papayawhip;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300; 
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(231, 45, 116);}
+
+section .btnone{ ;
+    background: papayawhip; 
+    bottom: ;
+}
+select{
+    
+    background-color: darksalmon;
+    
+    left: 610px;
+    top: 340px;
+}
